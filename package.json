@@ -1,11 +1,13 @@
 {
   "name": "webpacktest3",
+  "homepage": "https://stasbasov.github.io/webpackPraktikum/",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "build": "rimraf dist webpack --mode production",
-    "dev": "webpack-dev-server --mode development --open --watch"
+    "dev": "webpack-dev-server --mode development --open --watch",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [
     "js"
